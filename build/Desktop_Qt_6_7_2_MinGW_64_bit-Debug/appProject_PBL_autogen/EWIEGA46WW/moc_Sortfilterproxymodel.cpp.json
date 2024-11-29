@@ -1,0 +1,81 @@
+{
+    "classes": [
+        {
+            "className": "SortFilterProxyModel",
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "filterText",
+                    "notify": "filterTextChanged",
+                    "read": "filterText",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false,
+                    "write": "setFilterText"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "filterRoleName",
+                    "notify": "filterRoleNameChanged",
+                    "read": "filterRoleName",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false,
+                    "write": "setFilterRoleName"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "name": "filterCallback",
+                    "notify": "filterCallbackChanged",
+                    "read": "filterCallback",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QJSValue",
+                    "user": false,
+                    "write": "setFilterCallback"
+                }
+            ],
+            "qualifiedClassName": "SortFilterProxyModel",
+            "signals": [
+                {
+                    "access": "public",
+                    "name": "filterTextChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "filterRoleNameChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "filterCallbackChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QSortFilterProxyModel"
+                }
+            ]
+        }
+    ],
+    "inputFile": "Sortfilterproxymodel.h",
+    "outputRevision": 68
+}

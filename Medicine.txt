@@ -1,0 +1,140 @@
+M4735
+Paracetamol
+50
+1 vien/lan, 2-3 lan/ngay
+1 vien/lan, 2-3 lan/ngay
+M4614
+Ibuprofen
+104
+1 vien/lan, 3 lan/ngay
+12/12/2024
+M1846
+Amoxicillin
+60
+2 vien/lan, 2 lan/ngay
+2 vien/lan, 2 lan/ngay
+M1756
+Loratadine
+70
+1 vien/ngay
+22/01/2025
+M5739
+Cetirizine
+80
+1 vien/lan, 2 lan/ngay
+11/09/2024
+M3754
+Metformin
+40
+3 vien/lan, 1 lan/ngay
+3 vien/lan, 1 lan/ngay
+M5761
+Amlodipine
+120
+1 vien/lan, 3 lan/ngay
+22/09/2026
+M3614
+Simvastatin
+55
+2 vien/lan, 1 lan/ngay
+15/08/2025
+M4611
+Omeprazole
+72
+1 vien/ngay
+18/01/2024
+M1146
+Ciprofioxacin
+66
+2 vien/lan, 1 lan/ngay
+12/01/2025
+M1764
+Azithromycin
+150
+1 vien/ngay
+25/12/2023
+M1578
+Furosemide
+77
+3 vien/lan, 3 lan/ngay
+05/02/2025
+M5479
+Metronidazole
+132
+2 vien/lan, 3 lan/ngay
+12/03/2025
+M9860
+Warfarin
+120
+2 vien/ngay, 1 lan/ngay
+03/02/2025
+M1185
+Clopidogrel
+92
+2 vien/lan, 3 lan/ngay
+11/08/2025
+M2423
+Hydrochlorothiazide
+150
+2 vien/ngay
+02/05/2025
+M3625
+Prednisone
+116
+3 vien/lan, 2 lan/ngay
+11/07/2025
+M3846
+Ranitidine
+69
+1 vien/lan, 3 lan/ngay
+28/12/2024
+M7915
+Losartan
+100
+1 vien/ngay
+23/01/2025
+M3911
+Guaifenesin
+34
+1 vien/ngay
+22/06/2026
+M1234
+Hydrocortisone
+47
+2 vien/lan, 2 lan/ngay
+11/04/2025
+M3570
+Digoxin
+88
+2 vien/lan, 1 lan/ngay
+22/12/2025
+M1189
+Salbutamol
+48
+1 vien/ngay
+22/04/2025
+M1856
+Levofloxacin
+232
+3 vien/lan, 3 lan/ngay
+22/11/2024
+M1174
+Budesonide
+172
+3 vien/lan, 2 lan/ngay
+02/09/2024
+M5729
+Citalopram
+20
+1 vien/ngay
+10/08/2024
+M4810
+Tamsulosin
+99
+2 vien/lan, 1 lan/ngay
+19/05/2026
+M6677
+Allopurinol
+129
+2 vien/lan, 3 lan/ngay
+22/06/2026

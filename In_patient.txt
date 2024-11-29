@@ -1,0 +1,102 @@
+I0001
+123456789
+153759555
+Nguyen Van A
+Thanh Khe Da Nang
+20/11/2005
+048205987654
+Male
+Thai hoa khop
+Dau cot song
+chup x quang
+Khoa Xuong Khop
+90
+170
+16/11/2024
+14
+B101
+I0002
+123456789
+153759555
+Tran Thi B
+Thanh Khe Da Nang
+30/05/2002
+048205987654
+Female
+Thai hoa khop
+Dau cot song
+chup x quang
+Khoa Xuong Khop
+90
+170
+16/11/2024
+14
+B101
+I0003
+45112301657
+090505059508
+Nguyen Tam Nhu
+Hoa Khanh Bac
+30/04/1945
+048205987654
+Male
+Cao huyet ap
+Dau nua vung bung duoi
+Mo ruot thua
+Noi khoa
+48
+150
+16/11/2005
+5
+B101
+I0096
+BHYT112345678
+0905350892
+Huynh Thi Lan
+Son Tra
+07/11/1990
+048205996222
+Female
+Viem xoang
+
+
+Khoa Tai Mui Hong
+
+
+27/11/2024
+
+
+I1005
+BHYT045612345
+0913487652
+Tran Quyet Long
+Truong Son Hoa Cam
+01/01/1959
+048205123456
+Male
+Thai hoa khop
+dau vung thuong toa
+uong thuoc
+Khoa Xuong Khop
+70
+165
+29/11/2024
+4
+B101
+I1000
+BHYT987654321
+0123456789
+Dao Duy Tu 
+Bac tu liem
+01/01/1970
+048205112345
+Male
+Chan thuong day chang
+dau vung dau goi
+tap di duong sinh kem uong thuoc
+Khoa Xuong Khop
+70
+180
+29/11/2024
+10
+C101

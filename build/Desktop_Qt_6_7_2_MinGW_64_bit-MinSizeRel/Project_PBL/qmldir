@@ -1,0 +1,21 @@
+module Project_PBL
+typeinfo appProject_PBL.qmltypes
+prefer :/qt/qml/Project_PBL/
+Main 1.0 Main.qml
+Addnewdoctor_page 1.0 Addnewdoctor_page.qml
+Home_page 1.0 Home_page.qml
+Login_page 1.0 Login_page.qml
+Side_bar 1.0 Side_bar.qml
+Doctor_page 1.0 Doctor_page.qml
+Patient_page 1.0 Patient_page.qml
+Medicine_page 1.0 Medicine_page.qml
+Add_In_Out_patient_page 1.0 Add_In_Out_patient_page.qml
+ViewandEdit_page 1.0 ViewandEdit_page.qml
+ViewandEdit_Inpatient_page 1.0 ViewandEdit_Inpatient_page.qml
+ViewandEdit_Outpatient_page 1.0 ViewandEdit_Outpatient_page.qml
+Addnewmedicine_page 1.0 Addnewmedicine_page.qml
+EditMedicine_page 1.0 EditMedicine_page.qml
+Forgotpassword_page 1.0 Forgotpassword_page.qml
+Registeraccount_page 1.0 Registeraccount_page.qml
+Changepassword_page 1.0 Changepassword_page.qml
+

@@ -1,0 +1,136 @@
+{
+    "classes": [
+        {
+            "className": "DoctorModel",
+            "methods": [
+                {
+                    "access": "public",
+                    "name": "printDoctors",
+                    "returnType": "void"
+                }
+            ],
+            "object": true,
+            "qualifiedClassName": "DoctorModel",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractListModel"
+                }
+            ]
+        },
+        {
+            "className": "Doctor",
+            "methods": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "I_doctorId",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "I_department",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "I_phone",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "I_name",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "I_address",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "I_email",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "I_date",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "I_CCCD",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "I_sex",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "days",
+                            "type": "QStringList"
+                        },
+                        {
+                            "name": "I_NoD",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "I_shift1",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "I_shift2",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "getDoctorData",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "addDoctorData",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "showDoctorDataFromFile",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "I_doctorId",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "searchDoctorData",
+                    "returnType": "Doctor*"
+                }
+            ],
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "model",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "DoctorModel*",
+                    "user": false,
+                    "write": "setModel"
+                }
+            ],
+            "qualifiedClassName": "Doctor",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "Person"
+                },
+                {
+                    "access": "public",
+                    "name": "Available"
+                }
+            ]
+        }
+    ],
+    "inputFile": "Doctor_Patient.h",
+    "outputRevision": 68
+}

@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/Project_PBL">
+    <file alias="qmldir">D:/Minhh/Learn/QT_creator/PBL/Project_PBL/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Project_PBL/qmldir</file>
+  </qresource>
+</RCC>
+

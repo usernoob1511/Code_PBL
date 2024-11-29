@@ -1,0 +1,320 @@
+{
+    "classes": [
+        {
+            "className": "MedicineModel",
+            "methods": [
+                {
+                    "access": "public",
+                    "name": "printMedicines",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "index",
+                            "type": "QModelIndex"
+                        },
+                        {
+                            "name": "role",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "data",
+                    "returnType": "QVariant"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "index",
+                            "type": "QModelIndex"
+                        }
+                    ],
+                    "isCloned": true,
+                    "name": "data",
+                    "returnType": "QVariant"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "index",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "get_medicineCode",
+                    "returnType": "QString"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "index",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "get_medicineName",
+                    "returnType": "QString"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "index",
+                            "type": "int"
+                        },
+                        {
+                            "name": "name",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "quantity",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "usageInstructions",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "expiryDate",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "editMedicineModel",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "clear",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "index",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "removeAt",
+                    "returnType": "void"
+                }
+            ],
+            "object": true,
+            "qualifiedClassName": "MedicineModel",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractListModel"
+                }
+            ]
+        },
+        {
+            "className": "Medicine",
+            "methods": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "I_meidicineId",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "checkMedicineId",
+                    "returnType": "bool"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "I_medicineCode",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "I_medicineName",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "I_quantity",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "I_usageInstructions",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "I_expiryDate",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "getMedicineData",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "addMedicineData",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "showMedicineDataFromFile",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "I_medicineCode",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "searchMedicineData",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "editMedicineData",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "I_medicineCode",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "deleteMedicineData",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "name",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "showSearchMedicine",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "showSearchMedicineNotUsed",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "showExpiredMedicines",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "get_medicineCode",
+                    "returnType": "QString"
+                },
+                {
+                    "access": "public",
+                    "name": "get_medicineName",
+                    "returnType": "QString"
+                },
+                {
+                    "access": "public",
+                    "name": "get_quantity",
+                    "returnType": "QString"
+                },
+                {
+                    "access": "public",
+                    "name": "get_usageInstructions",
+                    "returnType": "QString"
+                },
+                {
+                    "access": "public",
+                    "name": "get_expiryDate",
+                    "returnType": "QString"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "code",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "set_medicineCode",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "name",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "set_medicineName",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "qty",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "set_quantity",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "instructions",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "set_usageInstructions",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "date",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "set_expiryDate",
+                    "returnType": "void"
+                }
+            ],
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "model",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "MedicineModel*",
+                    "user": false,
+                    "write": "setModel"
+                }
+            ],
+            "qualifiedClassName": "Medicine",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "Medicine.h",
+    "outputRevision": 68
+}

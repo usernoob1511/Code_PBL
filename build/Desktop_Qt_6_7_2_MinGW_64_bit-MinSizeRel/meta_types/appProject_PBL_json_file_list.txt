@@ -1,0 +1,4 @@
+D:/Minhh/Learn/QT_creator/PBL/Project_PBL/build/Desktop_Qt_6_7_2_MinGW_64_bit-MinSizeRel/appProject_PBL_autogen/include/../EWIEGA46WW/moc_Admin.cpp.json
+D:/Minhh/Learn/QT_creator/PBL/Project_PBL/build/Desktop_Qt_6_7_2_MinGW_64_bit-MinSizeRel/appProject_PBL_autogen/include/../EWIEGA46WW/moc_Doctor.cpp.json
+D:/Minhh/Learn/QT_creator/PBL/Project_PBL/build/Desktop_Qt_6_7_2_MinGW_64_bit-MinSizeRel/appProject_PBL_autogen/include/../EWIEGA46WW/moc_Medicine.cpp.json
+D:/Minhh/Learn/QT_creator/PBL/Project_PBL/build/Desktop_Qt_6_7_2_MinGW_64_bit-MinSizeRel/appProject_PBL_autogen/include/../EWIEGA46WW/moc_Patient.cpp.json

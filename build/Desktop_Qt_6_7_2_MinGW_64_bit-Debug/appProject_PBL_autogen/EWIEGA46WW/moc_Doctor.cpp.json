@@ -1,0 +1,464 @@
+{
+    "classes": [
+        {
+            "className": "DoctorModel",
+            "methods": [
+                {
+                    "access": "public",
+                    "name": "printDoctors",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "index",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "get_doctorId",
+                    "returnType": "QString"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "index",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "get_name",
+                    "returnType": "QString"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "index",
+                            "type": "int"
+                        },
+                        {
+                            "name": "name",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "cccd",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "phone",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "editDoctorModel",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "clear",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "index",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "removeAt",
+                    "returnType": "void"
+                }
+            ],
+            "object": true,
+            "qualifiedClassName": "DoctorModel",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractListModel"
+                }
+            ]
+        },
+        {
+            "className": "Doctor",
+            "methods": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "I_doctorId",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "checkDoctorId",
+                    "returnType": "bool"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "I_doctorId",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "I_department",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "I_phone",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "I_name",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "I_address",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "I_email",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "I_date",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "I_CCCD",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "I_sex",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "days",
+                            "type": "QStringList"
+                        },
+                        {
+                            "name": "I_NoD",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "I_shift1",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "I_shift2",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "getDoctorData",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "addDoctorData",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "showDoctorDataFromFile",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "I_doctorId",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "searchDoctorData",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "editDoctorData",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "I_doctorId",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "deleteDoctorData",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "name",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "showSearchDoctor",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "showDoctorOnline",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "get_doctorId",
+                    "returnType": "QString"
+                },
+                {
+                    "access": "public",
+                    "name": "get_department",
+                    "returnType": "QString"
+                },
+                {
+                    "access": "public",
+                    "name": "get_CCCD",
+                    "returnType": "QString"
+                },
+                {
+                    "access": "public",
+                    "name": "get_name",
+                    "returnType": "QString"
+                },
+                {
+                    "access": "public",
+                    "name": "get_address",
+                    "returnType": "QString"
+                },
+                {
+                    "access": "public",
+                    "name": "get_phone",
+                    "returnType": "QString"
+                },
+                {
+                    "access": "public",
+                    "name": "get_mail",
+                    "returnType": "QString"
+                },
+                {
+                    "access": "public",
+                    "name": "get_date",
+                    "returnType": "QString"
+                },
+                {
+                    "access": "public",
+                    "name": "get_sex",
+                    "returnType": "QString"
+                },
+                {
+                    "access": "public",
+                    "name": "get_age",
+                    "returnType": "QString"
+                },
+                {
+                    "access": "public",
+                    "name": "get_days",
+                    "returnType": "QStringList"
+                },
+                {
+                    "access": "public",
+                    "name": "get_shift1",
+                    "returnType": "QString"
+                },
+                {
+                    "access": "public",
+                    "name": "get_shift2",
+                    "returnType": "QString"
+                },
+                {
+                    "access": "public",
+                    "name": "get_NoD",
+                    "returnType": "QString"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "id",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "set_doctorId",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "dep",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "set_department",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "cccd",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "set_CCCD",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "n",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "set_name",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "addr",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "set_address",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "ph",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "set_phone",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "m",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "set_mail",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "d",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "set_date",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "s",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "set_sex",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "a",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "set_age",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "days",
+                            "type": "QStringList"
+                        }
+                    ],
+                    "name": "set_days",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "shift",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "set_shift1",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "shift",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "set_shift2",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "noD",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "set_NoD",
+                    "returnType": "void"
+                }
+            ],
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "model",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "DoctorModel*",
+                    "user": false,
+                    "write": "setModel"
+                }
+            ],
+            "qualifiedClassName": "Doctor",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "Person"
+                },
+                {
+                    "access": "public",
+                    "name": "Available"
+                }
+            ]
+        }
+    ],
+    "inputFile": "Doctor.h",
+    "outputRevision": 68
+}

@@ -1,0 +1,21 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Images/anhnen.jpg</file>
+        <file>Images/anhnenbenhvien.jpg</file>
+        <file>Images/eye_hide.png</file>
+        <file>Images/eye_open.png</file>
+        <file>Images/health-medical-healthcare-health.jpg</file>
+        <file>Images/home_page.jpg</file>
+        <file>Images/hospital-clinic-empty-indoor.jpg</file>
+        <file>Images/icons8-home-50.png</file>
+        <file>Images/icons8-sick-50.png</file>
+        <file>Images/Logo_benhvien.png</file>
+        <file>Images/logo_matkhau.png</file>
+        <file>Images/logo_nen(1)_tachnen.png</file>
+        <file>Images/logo_taikhoan.png</file>
+        <file>Images/logon_nen(1).png</file>
+        <file>Images/Patient.png</file>
+        <file>Images/Remove-bg.ai_1729243755639.png</file>
+        <file>Images/Staff.png</file>
+    </qresource>
+</RCC>

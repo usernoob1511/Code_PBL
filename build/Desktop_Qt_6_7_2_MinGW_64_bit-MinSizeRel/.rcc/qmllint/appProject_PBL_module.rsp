@@ -1,0 +1,10 @@
+-I
+D:/Minhh/Learn/QT_creator/PBL/Project_PBL/build/Desktop_Qt_6_7_2_MinGW_64_bit-MinSizeRel
+-I
+C:/Qt/6.7.2/mingw_64/./qml
+--resource
+D:/Minhh/Learn/QT_creator/PBL/Project_PBL/build/Desktop_Qt_6_7_2_MinGW_64_bit-MinSizeRel/.qt/rcc/qmake_Project_PBL.qrc
+--resource
+D:/Minhh/Learn/QT_creator/PBL/Project_PBL/build/Desktop_Qt_6_7_2_MinGW_64_bit-MinSizeRel/.qt/rcc/appProject_PBL_raw_qml_0.qrc
+--module
+Project_PBL

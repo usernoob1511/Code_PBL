@@ -1,0 +1,85 @@
+102230170
+123456789
+153759555
+Tran Van Ca
+Thanh Khe Da Nang
+20/11/2005
+048205987654
+Male
+Thai hoa khop
+Dau cot song
+chup x quang
+Khoa Xuong Khop
+90
+170
+16/11/2024
+2
+7
+102230159
+123456789
+153759555
+Nguyen Ba Canh
+Thanh Khe Da Nang
+30/05/2002
+048205987654
+Male
+Thai hoa khop
+Dau cot song
+chup x quang
+Khoa Xuong Khop
+90
+170
+16/10/2024
+5
+3
+102245678
+5678901234
+07955135436
+Tran Ba Duong
+Lien Chieu
+20/11/1999
+987451234849
+Male
+Cao huyet ap
+Dau vung dau
+Uong thuoc
+Noi khoa
+45
+130
+18/11/2024
+3
+5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

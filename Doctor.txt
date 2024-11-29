@@ -1,0 +1,133 @@
+D0001
+Khoa Than - Tiet nieu
+19
+0369075402
+Nguyen Song Hao
+hoalien
+haodz@gmail.com
+23/10/2005
+040205014310
+Male
+2
+Monday
+Thursday
+08:00
+16:00
+D0027
+Khoa Than - Tiet nieu
+19
+0332543542
+Bui Thuy Tram
+HoaSon,DaNang
+thuytram@gmail.com
+12/06/2005
+040503050244
+Female
+4
+Monday
+Thursday
+Friday
+Sunday
+12:00
+23:00
+D0016
+Khoa Than - Tiet nieu
+48
+0385321345
+DoctorStrange
+hoachau
+songhaodeptrai@gmail
+19/07/1976
+040341454589
+Male
+3
+Monday
+Tuesday
+Wednesday
+07:00
+12:00
+D0015
+Khoa khac
+19
+0795513578
+Doan Ngoc Minh
+Tổ 7, thôn Quang Châu
+doanngocminh1511@gmail.com
+15/11/2005
+048205008909
+Male
+4
+Monday
+Wednesday
+Thursday
+Friday
+07:00
+23:00
+D5906
+Khoa Khac
+18
+0905795132
+Nguyen Phan Khanh Quynh
+Duong Son Hoa Chau Hoa Vang
+quynhnguyen@gmail.com
+05/09/2006
+048205008909
+Female
+3
+Thursday
+Friday
+Saturday
+12:00
+21:00
+D3805
+Khoa Xuong Khop
+19
+0795513578
+Nguyen Dang Nam
+Hoa Khanh Nam
+namdangnguyen@gmail.com
+03/08/2005
+048205008909
+Male
+4
+Tuesday
+Wednesday
+Thursday
+Friday
+08:00
+22:00
+D0056
+Khoa Xuong Khop
+19
+0364178612
+Do Quoc Chung
+Hue, phong dien
+doquocchung11@gmail.con
+29/11/2005
+046205007380
+Other
+3
+Monday
+Thursday
+Saturday
+12:00
+19:00
+D0059
+Khoa ho hap
+79
+0123456789
+Le Tan Sinh
+Quang Ngai, Le Khiet
+sinhle@gmail.com
+30/04/1945
+098765432112
+Male
+6
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+Saturday
+07:00
+23:00

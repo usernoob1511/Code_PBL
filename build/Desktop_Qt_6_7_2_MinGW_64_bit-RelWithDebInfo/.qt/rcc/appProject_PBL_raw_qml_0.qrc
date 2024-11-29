@@ -1,0 +1,14 @@
+<RCC>
+  <qresource prefix="/qt/qml/Project_PBL/">
+    <file alias="Main.qml">D:/Minhh/Learn/QT_creator/PBL/Project_PBL/Main.qml</file>
+    <file alias="Addnewdoctor_page.qml">D:/Minhh/Learn/QT_creator/PBL/Project_PBL/Addnewdoctor_page.qml</file>
+    <file alias="Addnewpatient_page.qml">D:/Minhh/Learn/QT_creator/PBL/Project_PBL/Addnewpatient_page.qml</file>
+    <file alias="Home_page.qml">D:/Minhh/Learn/QT_creator/PBL/Project_PBL/Home_page.qml</file>
+    <file alias="Login_page.qml">D:/Minhh/Learn/QT_creator/PBL/Project_PBL/Login_page.qml</file>
+    <file alias="Side_bar.qml">D:/Minhh/Learn/QT_creator/PBL/Project_PBL/Side_bar.qml</file>
+    <file alias="Doctor_page.qml">D:/Minhh/Learn/QT_creator/PBL/Project_PBL/Doctor_page.qml</file>
+    <file alias="Patient_page.qml">D:/Minhh/Learn/QT_creator/PBL/Project_PBL/Patient_page.qml</file>
+    <file alias="Images.qrc">D:/Minhh/Learn/QT_creator/PBL/Project_PBL/Images.qrc</file>
+  </qresource>
+</RCC>
+

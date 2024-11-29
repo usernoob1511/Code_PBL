@@ -1,0 +1,2080 @@
+[
+    {
+        "classes": [
+            {
+                "className": "Admin",
+                "methods": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "username",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "password",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "login",
+                        "returnType": "bool"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "username",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "password",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "phone",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "registerAdmin",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "username",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "phone",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "forgotPassword",
+                        "returnType": "bool"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "password",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "changePassword",
+                        "returnType": "bool"
+                    }
+                ],
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "name": "username",
+                        "notify": "usernameChanged",
+                        "read": "username",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "write": "setUsername"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 1,
+                        "name": "password",
+                        "notify": "passwordChanged",
+                        "read": "password",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "write": "setPassword"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 2,
+                        "name": "phone",
+                        "notify": "phoneChanged",
+                        "read": "phone",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "write": "setPhone"
+                    }
+                ],
+                "qualifiedClassName": "Admin",
+                "signals": [
+                    {
+                        "access": "public",
+                        "name": "usernameChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "passwordChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "phoneChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "Admin.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
+                "className": "DoctorModel",
+                "methods": [
+                    {
+                        "access": "public",
+                        "name": "printDoctors",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "index",
+                                "type": "QModelIndex"
+                            },
+                            {
+                                "name": "role",
+                                "type": "int"
+                            }
+                        ],
+                        "name": "data",
+                        "returnType": "QVariant"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "index",
+                                "type": "QModelIndex"
+                            }
+                        ],
+                        "isCloned": true,
+                        "name": "data",
+                        "returnType": "QVariant"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "index",
+                                "type": "int"
+                            }
+                        ],
+                        "name": "get_doctorId",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "index",
+                                "type": "int"
+                            }
+                        ],
+                        "name": "get_name",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "index",
+                                "type": "int"
+                            },
+                            {
+                                "name": "name",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "cccd",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "phone",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "editDoctorModel",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "clear",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "index",
+                                "type": "int"
+                            }
+                        ],
+                        "name": "removeAt",
+                        "returnType": "void"
+                    }
+                ],
+                "object": true,
+                "qualifiedClassName": "DoctorModel",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QAbstractListModel"
+                    }
+                ]
+            },
+            {
+                "className": "Doctor",
+                "methods": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "I_doctorId",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "checkDoctorId",
+                        "returnType": "bool"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "I_doctorId",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "I_department",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "I_phone",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "I_name",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "I_address",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "I_email",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "I_date",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "I_CCCD",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "I_sex",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "days",
+                                "type": "QStringList"
+                            },
+                            {
+                                "name": "I_NoD",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "I_shift1",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "I_shift2",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "getDoctorData",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "addDoctorData",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "showDoctorDataFromFile",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "I_doctorId",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "searchDoctorData",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "editDoctorData",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "I_doctorId",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "deleteDoctorData",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "name",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "showSearchDoctor",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "showDoctorOnline",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "get_doctorId",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "name": "get_department",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "name": "get_CCCD",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "name": "get_name",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "name": "get_address",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "name": "get_phone",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "name": "get_mail",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "name": "get_date",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "name": "get_sex",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "name": "get_age",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "name": "get_days",
+                        "returnType": "QStringList"
+                    },
+                    {
+                        "access": "public",
+                        "name": "get_shift1",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "name": "get_shift2",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "name": "get_NoD",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "id",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "set_doctorId",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "dep",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "set_department",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "cccd",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "set_CCCD",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "n",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "set_name",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "addr",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "set_address",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "ph",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "set_phone",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "m",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "set_mail",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "d",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "set_date",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "s",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "set_sex",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "a",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "set_age",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "days",
+                                "type": "QStringList"
+                            }
+                        ],
+                        "name": "set_days",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "shift",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "set_shift1",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "shift",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "set_shift2",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "noD",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "set_NoD",
+                        "returnType": "void"
+                    }
+                ],
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "name": "model",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "DoctorModel*",
+                        "user": false,
+                        "write": "setModel"
+                    }
+                ],
+                "qualifiedClassName": "Doctor",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "Person"
+                    },
+                    {
+                        "access": "public",
+                        "name": "Available"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "Doctor.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
+                "className": "MedicineModel",
+                "methods": [
+                    {
+                        "access": "public",
+                        "name": "printMedicines",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "index",
+                                "type": "QModelIndex"
+                            },
+                            {
+                                "name": "role",
+                                "type": "int"
+                            }
+                        ],
+                        "name": "data",
+                        "returnType": "QVariant"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "index",
+                                "type": "QModelIndex"
+                            }
+                        ],
+                        "isCloned": true,
+                        "name": "data",
+                        "returnType": "QVariant"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "index",
+                                "type": "int"
+                            }
+                        ],
+                        "name": "get_medicineCode",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "index",
+                                "type": "int"
+                            }
+                        ],
+                        "name": "get_medicineName",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "index",
+                                "type": "int"
+                            },
+                            {
+                                "name": "name",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "quantity",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "usageInstructions",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "expiryDate",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "editMedicineModel",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "clear",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "index",
+                                "type": "int"
+                            }
+                        ],
+                        "name": "removeAt",
+                        "returnType": "void"
+                    }
+                ],
+                "object": true,
+                "qualifiedClassName": "MedicineModel",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QAbstractListModel"
+                    }
+                ]
+            },
+            {
+                "className": "Medicine",
+                "methods": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "I_medicineCode",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "I_medicineName",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "I_quantity",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "I_usageInstructions",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "I_expiryDate",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "getMedicineData",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "addMedicineData",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "showMedicineDataFromFile",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "I_medicineCode",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "searchMedicineData",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "editMedicineData",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "I_medicineCode",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "deleteMedicineData",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "name",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "showSearchMedicine",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "showSearchMedicineNotUsed",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "get_medicineCode",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "name": "get_medicineName",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "name": "get_quantity",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "name": "get_usageInstructions",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "name": "get_expiryDate",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "code",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "set_medicineCode",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "name",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "set_medicineName",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "qty",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "set_quantity",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "instructions",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "set_usageInstructions",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "date",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "set_expiryDate",
+                        "returnType": "void"
+                    }
+                ],
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "name": "model",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "MedicineModel*",
+                        "user": false,
+                        "write": "setModel"
+                    }
+                ],
+                "qualifiedClassName": "Medicine",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "Medicine.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
+                "className": "InpatientModel",
+                "methods": [
+                    {
+                        "access": "public",
+                        "name": "printInpatients",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "index",
+                                "type": "QModelIndex"
+                            },
+                            {
+                                "name": "role",
+                                "type": "int"
+                            }
+                        ],
+                        "name": "data",
+                        "returnType": "QVariant"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "index",
+                                "type": "QModelIndex"
+                            }
+                        ],
+                        "isCloned": true,
+                        "name": "data",
+                        "returnType": "QVariant"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "index",
+                                "type": "int"
+                            }
+                        ],
+                        "name": "get_patientId",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "index",
+                                "type": "int"
+                            }
+                        ],
+                        "name": "get_name",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "index",
+                                "type": "int"
+                            },
+                            {
+                                "name": "name",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "cccd",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "phone",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "editInpatientModel",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "clear",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "index",
+                                "type": "int"
+                            }
+                        ],
+                        "name": "removeAt",
+                        "returnType": "void"
+                    }
+                ],
+                "object": true,
+                "qualifiedClassName": "InpatientModel",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QAbstractListModel"
+                    }
+                ]
+            },
+            {
+                "className": "Inpatient",
+                "methods": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "I_patientId",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "checkInpatientId",
+                        "returnType": "bool"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "I_date",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "showIn_PatientBefore",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "I_phone",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "I_name",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "I_address",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "I_date",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "I_CCCD",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "I_sex",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "I_diseaseName",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "I_symptoms",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "I_treatment",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "I_department",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "I_patientId",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "I_BHYT",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "I_weight",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "I_height",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "I_appointDate",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "I_dischargeDate",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "I_roomNumber",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "getIn_PatientData",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "addIn_PatientData",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "showIn_PatientDataFromFile",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "I_patientId",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "searchInpatientData",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "editInpatientData",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "I_inpatientId",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "deleteInpatientData",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "searchName",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "showSearchInpatient",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "get_name",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "name": "get_address",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "name": "get_phone",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "name": "get_date",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "name": "get_CCCD",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "name": "get_sex",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "name": "get_age",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "name": "get_diseasename",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "name": "get_symptoms",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "name": "get_treatment",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "name": "get_department",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "name": "get_patientId",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "name": "get_BHYT",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "name": "get_weight",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "name": "get_height",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "name": "get_appointDate",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "name": "get_dischargeDate",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "name": "get_roomNumber",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "value",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "set_name",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "value",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "set_address",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "value",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "set_phone",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "value",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "set_date",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "value",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "set_CCCD",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "value",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "set_sex",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "value",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "set_age",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "value",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "set_diseasename",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "value",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "set_symptoms",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "value",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "set_treatment",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "value",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "set_department",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "value",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "set_patientId",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "value",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "set_BHYT",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "value",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "set_weight",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "value",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "set_height",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "value",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "set_appointDate",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "value",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "set_dischargeDate",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "value",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "set_roomNumber",
+                        "returnType": "void"
+                    }
+                ],
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "name": "model",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "InpatientModel*",
+                        "user": false,
+                        "write": "setModel"
+                    }
+                ],
+                "qualifiedClassName": "Inpatient",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "Patient"
+                    }
+                ]
+            },
+            {
+                "className": "OutpatientModel",
+                "methods": [
+                    {
+                        "access": "public",
+                        "name": "printOutpatients",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "index",
+                                "type": "QModelIndex"
+                            },
+                            {
+                                "name": "role",
+                                "type": "int"
+                            }
+                        ],
+                        "name": "data",
+                        "returnType": "QVariant"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "index",
+                                "type": "QModelIndex"
+                            }
+                        ],
+                        "isCloned": true,
+                        "name": "data",
+                        "returnType": "QVariant"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "index",
+                                "type": "int"
+                            }
+                        ],
+                        "name": "get_patientId",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "index",
+                                "type": "int"
+                            }
+                        ],
+                        "name": "get_name",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "index",
+                                "type": "int"
+                            },
+                            {
+                                "name": "name",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "cccd",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "phone",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "editOutpatientModel",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "clear",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "index",
+                                "type": "int"
+                            }
+                        ],
+                        "name": "removeAt",
+                        "returnType": "void"
+                    }
+                ],
+                "object": true,
+                "qualifiedClassName": "OutpatientModel",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QAbstractListModel"
+                    }
+                ]
+            },
+            {
+                "className": "Outpatient",
+                "methods": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "I_patientId",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "checkOutpatientId",
+                        "returnType": "bool"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "I_date",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "showOut_PatientBefore",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "I_phone",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "I_name",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "I_address",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "I_date",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "I_CCCD",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "I_sex",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "I_diseaseName",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "I_symptoms",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "I_treatment",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "I_department",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "I_patientId",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "I_BHYT",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "I_weight",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "I_height",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "I_appointDate",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "I_numberOfFollowUps",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "I_daysBetweenVisits",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "getOut_PatientData",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "addOut_PatientData",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "showOut_PatientDataFromFile",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "I_patientId",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "searchOutpatientData",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "editOutpatientData",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "I_outpatientId",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "deleteOutpatientData",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "searchName",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "showSearchOutpatient",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "get_name",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "name": "get_address",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "name": "get_phone",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "name": "get_date",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "name": "get_CCCD",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "name": "get_sex",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "name": "get_age",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "name": "get_diseasename",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "name": "get_symptoms",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "name": "get_treatment",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "name": "get_department",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "name": "get_patientId",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "name": "get_BHYT",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "name": "get_weight",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "name": "get_height",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "name": "get_appointDate",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "name": "get_numberOfFollowUps",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "name": "get_daysBetweenVisits",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "value",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "set_name",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "value",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "set_address",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "value",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "set_phone",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "value",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "set_date",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "value",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "set_CCCD",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "value",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "set_sex",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "value",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "set_age",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "value",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "set_diseasename",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "value",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "set_symptoms",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "value",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "set_treatment",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "value",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "set_department",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "value",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "set_patientId",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "value",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "set_BHYT",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "value",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "set_weight",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "value",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "set_height",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "value",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "set_appointDate",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "value",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "set_numberOfFollowUps",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "value",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "set_daysBetweenVisits",
+                        "returnType": "void"
+                    }
+                ],
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "name": "model",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "OutpatientModel*",
+                        "user": false,
+                        "write": "setModel"
+                    }
+                ],
+                "qualifiedClassName": "Outpatient",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "Patient"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "Patient.h",
+        "outputRevision": 68
+    }
+]

@@ -1,0 +1,12 @@
+module Project_PBL
+typeinfo appProject_PBL.qmltypes
+prefer :/qt/qml/Project_PBL/
+Main 1.0 Main.qml
+Addnewdoctor_page 1.0 Addnewdoctor_page.qml
+Addnewpatient_page 1.0 Addnewpatient_page.qml
+Home_page 1.0 Home_page.qml
+Login_page 1.0 Login_page.qml
+Side_bar 1.0 Side_bar.qml
+Doctor_page 1.0 Doctor_page.qml
+Patient_page 1.0 Patient_page.qml
+

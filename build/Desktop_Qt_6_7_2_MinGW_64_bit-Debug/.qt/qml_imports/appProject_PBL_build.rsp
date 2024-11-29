@@ -1,0 +1,14 @@
+-rootPath
+D:/Minhh/Learn/QT_creator/PBL/Project_PBL
+-cmake-output
+-output-file
+D:/Minhh/Learn/QT_creator/PBL/Project_PBL/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qt/qml_imports/appProject_PBL_build.cmake
+-importPath
+D:/Minhh/Learn/QT_creator/PBL/Project_PBL/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/Project_PBL
+-importPath
+D:/Minhh/Learn/QT_creator/PBL/Project_PBL/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug
+-importPath
+C:/Qt/6.7.2/mingw_64/./qml
+-qrcFiles
+D:/Minhh/Learn/QT_creator/PBL/Project_PBL/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qt/rcc/qmake_Project_PBL.qrc
+D:/Minhh/Learn/QT_creator/PBL/Project_PBL/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qt/rcc/appProject_PBL_raw_qml_0.qrc
