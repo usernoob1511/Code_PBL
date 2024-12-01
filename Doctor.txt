@@ -14,7 +14,7 @@ Thursday
 08:00
 16:00
 D0027
-Khoa Than - Tiet nieu
+Khoa ho hap
 19
 0332543542
 Bui Thuy Tram
@@ -22,13 +22,14 @@ HoaSon,DaNang
 thuytram@gmail.com
 12/06/2005
 040503050244
-Female
-4
+Other
+5
 Monday
 Thursday
 Friday
+Saturday
 Sunday
-12:00
+18:00
 23:00
 D0016
 Khoa Than - Tiet nieu
@@ -131,3 +132,23 @@ Friday
 Saturday
 07:00
 23:00
+D1112
+Khoa Ho Hap
+34
+0123456789
+Hao Dep Trai
+Bach khoa university
+haodeptrai1233@gmail.com
+01/01/1990
+048205123456
+Male
+7
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+Saturday
+Sunday
+07:00
+22:00

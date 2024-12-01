@@ -219,23 +219,6 @@ Item {
                 stackView1.push("Medicine_page.qml",{state: "Allmedicine"})
             }
 
-            // StackLayout {
-            //     id: stackLayout
-            //     anchors.left: rectangle.right
-            //     width: 1500
-            //     height: 1080
-
-            //     Loader {
-            //         source: "Home_page.qml"
-            //     }
-            //     Loader {
-            //         source: "Doctor_page.qml"
-            //     }
-            //     Loader {
-            //         source: "Patient_page.qml"
-            //     }
-            // }
-
             Rectangle{
                 x: -11
                 y: 372
@@ -335,114 +318,7 @@ Item {
                     }
                 }
             }
-            // Dialog {
-            //     id: changePasswordDialog
-            //     width: 400
-            //     height: 350
-            //     modal: true
-            //     parent: root
-            //     x: (root.width - width) /2
-            //     y: (root.height - height) / 2 - 100
 
-            //     ColumnLayout {
-            //         anchors.fill: parent
-            //         spacing: 20
-
-            //         // Tiêu đề của dialog
-            //         Label {
-            //             text: "Change Your Password"
-            //             font.pixelSize: 22
-            //             font.bold: true
-            //             color: "#333333"
-            //             anchors.horizontalCenter: parent.horizontalCenter
-            //         }
-
-            //         // Trường nhập mật khẩu cũ
-            //         TextField {
-            //             id: oldPassword_Field
-            //             font.pixelSize: 18
-            //             font.family: "Times New Roman"
-            //             placeholderText: "Enter Old Password"
-            //             echoMode: TextInput.Password
-            //             Layout.fillWidth: true
-            //             height: 100
-            //         }
-
-            //         // Trường nhập mật khẩu mới
-            //         TextField {
-            //             id: newPassword_Field
-            //             font.pixelSize: 18
-            //             font.family: "Times New Roman"
-            //             placeholderText: "Enter New Password"
-            //             echoMode: TextInput.Password
-            //             Layout.fillWidth: true
-            //             height: 100
-            //         }
-
-            //         // Trường nhập lại mật khẩu mới
-            //         TextField {
-            //             id: confirmPassword_Field
-            //             font.pixelSize: 18
-            //             font.family: "Times New Roman"
-            //             placeholderText: "Confirm New Password"
-            //             echoMode: TextInput.Password
-            //             Layout.fillWidth: true
-            //             height: 100
-            //         }
-
-            //         // Thông báo lỗi nếu có
-            //         Text {
-            //             id: text_error
-            //             color: check_password ? "#00ff00" : "#c4170e"
-            //             font.pixelSize: 16
-            //             visible: false
-            //             text: check_password ? "Password changed successfully!" : "Passwords do not match or incorrect old password!"
-            //             anchors.horizontalCenter: parent.horizontalCenter
-            //         }
-
-            //         // Dòng chứa các nút Cancel và Change Password
-            //         Row {
-            //             Layout.alignment: Qt.AlignHCenter
-            //             spacing: 20
-            //             anchors.horizontalCenter: parent.horizontalCenter
-
-            //             // Nút Cancel
-            //             Button {
-            //                 text: "Cancel"
-            //                 width: 120
-            //                 height: 40
-            //                 font.pixelSize: 18
-            //                 onClicked: {
-            //                     changePasswordDialog.close()
-            //                     text_error.visible = false
-            //                     oldPassword_Field.text = ""
-            //                     newPassword_Field.text=""
-            //                     confirmPassword_Field.text=""
-            //                 }
-            //             }
-
-            //             // Nút Change Password
-            //             Button {
-            //                 text: "Change Password"
-            //                 width: 120
-            //                 height: 40
-            //                 font.pixelSize: 18
-            //                 onClicked: {
-
-            //                     if (oldPassword_Field.text === admin.password && newPassword_Field.text !== "" &&
-            //                             confirmPassword_Field.text === newPassword_Field.text && admin.changePassword(newPassword_Field.text)) {
-
-            //                         check_password= true
-            //                         text_error.visible = true
-            //                     } else {
-            //                         check_password = false
-            //                         text_error.visible = true
-            //                     }
-            //                 }
-            //             }
-            //         }
-            //     }
-            // }
             Rectangle {
                 id: rectangle1
                 x: -4

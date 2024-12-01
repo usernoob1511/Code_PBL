@@ -2,7 +2,7 @@ M4735
 Paracetamol
 50
 1 vien/lan, 2-3 lan/ngay
-1 vien/lan, 2-3 lan/ngay
+12/12/2023
 M4614
 Ibuprofen
 104
@@ -10,9 +10,9 @@ Ibuprofen
 12/12/2024
 M1846
 Amoxicillin
-60
+0
 2 vien/lan, 2 lan/ngay
-2 vien/lan, 2 lan/ngay
+12/02/2024
 M1756
 Loratadine
 70
@@ -20,14 +20,14 @@ Loratadine
 22/01/2025
 M5739
 Cetirizine
-80
+0
 1 vien/lan, 2 lan/ngay
-11/09/2024
+12/02/2024
 M3754
 Metformin
 40
 3 vien/lan, 1 lan/ngay
-3 vien/lan, 1 lan/ngay
+12/12/2023
 M5761
 Amlodipine
 120

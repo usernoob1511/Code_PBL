@@ -10,8 +10,6 @@ Item {
 
     property bool isLogined: true
     property bool showPassword: false
-    property bool isRegister: true
-    property bool check_forgot: true
 
 
     Image {
@@ -190,7 +188,7 @@ Item {
                             isLogined= false
                         }
 
-                        //stackView.push("Side_bar.qml")
+                        showPassword= false
                         user_Field.text = ""
                         password_Field.text= ""
                     }
@@ -263,8 +261,10 @@ Item {
                     anchors.topMargin: 0
                     anchors.bottomMargin: 0
                     onClicked:{
+                        isLogined = true
                         user_Field.text = ""
                         password_Field.text= ""
+                        showPassword: false
                         stackView3.push("Forgotpassword_page.qml")
                     }
                 }
@@ -288,8 +288,10 @@ Item {
                     anchors.bottomMargin: 0
 
                     onClicked:{
+                        isLogined = true
                         user_Field.text = ""
                         password_Field.text= ""
+                        showPassword: false
                         stackView3.push("Registeraccount_page.qml")
                     }
                 }

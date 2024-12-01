@@ -130,7 +130,7 @@ void Medicine::getMedicineData(const QString &I_medicineCode, const QString &I_m
     medicineName = I_medicineName;
     quantity = I_quantity;
     usageInstructions = I_usageInstructions;
-    expiryDate = I_usageInstructions;
+    expiryDate = I_expiryDate;
 }
 
 // Thêm dữ liệu thuốc vào file
