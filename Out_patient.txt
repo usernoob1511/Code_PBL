@@ -1,6 +1,6 @@
-102230170
-123456789
-153759555
+O0001
+BHYT098712345
+0905452116
 Tran Van Ca
 Thanh Khe Da Nang
 20/11/2005
@@ -15,9 +15,9 @@ Khoa Xuong Khop
 16/11/2024
 2
 7
-102230159
-123456789
-153759555
+O0002
+BHYT456245132
+0987452169
 Nguyen Ba Canh
 Thanh Khe Da Nang
 30/05/2002
@@ -32,13 +32,13 @@ Khoa Xuong Khop
 16/10/2024
 5
 3
-102245678
-5678901234
-07955135436
+O0003
+BHYT987258456
+0795513543
 Tran Ba Duong
 Lien Chieu
 20/11/1999
-987451234849
+098745625846
 Male
 Cao huyet ap
 Dau vung dau
@@ -83,3 +83,20 @@ Noi khoa
 
 
 
+O0004
+BHYT111222002
+0987654123
+Trinh Dinh Long
+Son Tra
+16/05/2004
+048911123665
+Male
+Khac
+Dau vung toa
+chua di can tu trong ra ngoai
+Khoa Khac
+70
+170
+03/12/2024
+4
+4

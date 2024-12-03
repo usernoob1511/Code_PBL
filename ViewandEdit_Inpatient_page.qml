@@ -1056,7 +1056,11 @@ Item {
         font.family: "Times New Roman"
 
         onClicked: {
-            confirmationCancle.open()
+            if (rootViewandEditInpatient.state === "editInpatient") {
+                confirmationCancle.open()
+            } else {
+                stackView1.pop()
+            }
         }
 
         Dialog {
@@ -1168,7 +1172,7 @@ Item {
                 anchors.margins: 20
 
                 Label {
-                    text: "Are you sure you want to register this patient?"
+                    text: "Are you sure you want to Edit this patient?"
                     font.pixelSize: 20
                     color: "#333333"
                     wrapMode: Text.WordWrap
@@ -1201,13 +1205,7 @@ Item {
                             confirmationDialog.close()
                             stackView1.pop()
                             mainWindow.showCompletedDialog()
-
-
-                            if (rootViewandEditInpatient.state === "addInpatient") {
-                                inpatient.showIn_PatientDataFromFile()
-                            } else {
-                                outpatient.showOut_PatientDataFromFile()
-                            }
+                            inpatient.showIn_PatientDataFromFile()
                         }
                     }
 

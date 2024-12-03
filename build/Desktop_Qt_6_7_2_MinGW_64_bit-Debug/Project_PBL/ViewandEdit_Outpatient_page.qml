@@ -56,7 +56,7 @@ Item {
             PropertyChanges { target: nofuvField; readOnly: true }
             PropertyChanges { target: dbvField; readOnly: true }
 
-            PropertyChanges { target: saveButton; visible: false }
+            PropertyChanges { target: savebutton; visible: false }
             PropertyChanges { target: canclebutton; x: 1257; y: 944 }
         },
         State {
@@ -145,7 +145,6 @@ Item {
             y: 46
             width: 426
             height: 64
-            //text: qsTr("Add In Patient Details")
             font.pixelSize: 40
             font.bold: true
             font.family: "Times New Roman"
@@ -1059,7 +1058,11 @@ Item {
         font.family: "Times New Roman"
 
         onClicked: {
-            confirmationCancle.open()
+            if (rootViewandEditOutpatient.state === "editOutpatient") {
+                confirmationCancle.open()
+            } else {
+                stackView1.pop()
+            }
         }
 
         Dialog {
@@ -1172,7 +1175,7 @@ Item {
                 anchors.margins: 20
 
                 Label {
-                    text: "Are you sure you want to register this patient?"
+                    text: "Are you sure you want to edit this patient?"
                     font.pixelSize: 20
                     color: "#333333"
                     wrapMode: Text.WordWrap
@@ -1194,24 +1197,19 @@ Item {
                         onClicked: {
                             console.log("Yes clicked")
 
-                            inpatient.getIn_PatientData(
+                            outpatient.getOut_PatientData(
                                         phoneField.text, nameField.text, addressField.text, dateField.text, cccdField.text, sexField.currentText,
                                         diseasenameField.currentText, symptomsField.text, treatmentField.text, departmentField.currentText,
                                         patientIdField.text, bhytField.text, weightField.text, heightField.text, appointdayField.text,
-                                        dischargedayField.text, roomnumberField.text)
-                            inpatient.editInpatientData()
-                            inpatientModel.editInpatientModel(in_index, nameField.text, cccdField.text, phoneField.text)
+                                        nofuvField.text, dbvField.text)
+                            outpatient.editOutpatientData()
+                            outpatientModel.editOutpatientModel(out_index, nameField.text, cccdField.text, phoneField.text)
 
                             confirmationDialog.close()
                             stackView1.pop()
                             mainWindow.showCompletedDialog()
+                            outpatient.showOut_PatientDataFromFile()
 
-
-                            if (rootViewandEditOutpatient.state === "addInpatient") {
-                                inpatient.showIn_PatientDataFromFile()
-                            } else {
-                                outpatient.showOut_PatientDataFromFile()
-                            }
                         }
                     }
 
