@@ -461,8 +461,8 @@ Item {
                                 inpatientModel.removeAt(in_index)
                                 inpatient.deleteInpatientData(inpatient_id)
                             } else {
-                                outpatientModel.removeAt(in_index)
-                                outpatient.deleteOutpatientData(inpatient_id)
+                                outpatientModel.removeAt(out_index)
+                                outpatient.deleteOutpatientData(outpatient_id)
                             }
                             confirmationDialog.close()
                         }

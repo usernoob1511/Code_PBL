@@ -1,102 +1,969 @@
 O0001
-BHYT098712345
-0905452116
-Tran Van Ca
-Thanh Khe Da Nang
-20/11/2005
-048205987654
+BHYT718417647
+0952021885
+Hoang Van C
+Thanh Khe, Da Nang
+19/2/1982
+048205491664
 Male
-Thai hoa khop
-Dau cot song
-chup x quang
+Viem khop
+Dau nguc
+Vat ly tri lieu
 Khoa Xuong Khop
-90
-170
-16/11/2024
-2
+71
+191
+30/5/2024
 7
+8
 O0002
-BHYT456245132
-0987452169
-Nguyen Ba Canh
-Thanh Khe Da Nang
-30/05/2002
-048205987654
-Male
-Thai hoa khop
-Dau cot song
-chup x quang
-Khoa Xuong Khop
-90
-170
-16/10/2024
-5
-3
-O0003
-BHYT987258456
-0795513543
-Tran Ba Duong
-Lien Chieu
-20/11/1999
-098745625846
-Male
-Cao huyet ap
-Dau vung dau
-Uong thuoc
-Noi khoa
-45
-130
-18/11/2024
-3
-5
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-O0004
-BHYT111222002
-0987654123
-Trinh Dinh Long
-Son Tra
-16/05/2004
-048911123665
+BHYT538831234
+0913144327
+Tran Van D
+Thanh Khe, Da Nang
+13/8/1964
+048205809923
 Male
 Khac
-Dau vung toa
-chua di can tu trong ra ngoai
+Ho
+Xet nghiem
 Khoa Khac
-70
+94
+156
+25/4/2024
+3
+8
+O0003
+BHYT920680860
+0989345414
+Pham Van B
+Thanh Khe, Da Nang
+24/9/1959
+048205322202
+Male
+Benh vay nen
+Buon non
+Phuc hoi chuc nang
+Khoa Da Lieu
+78
+177
+28/10/2024
+4
+7
+O0004
+BHYT276891080
+0919017666
+Pham Van A
+Thanh Khe, Da Nang
+16/4/2006
+048205648883
+Male
+Tieu duong
+Dau lung
+Cham soc da
+Noi khoa
+64
+175
+11/4/2024
+10
+4
+O0005
+BHYT480679807
+0943906174
+Le Van A
+Thanh Khe, Da Nang
+15/7/1963
+048205593515
+Male
+Viem xoang
+Khat nuoc
+Uong thuoc
+Khoa Tai Mui Hong
+74
+182
+20/12/2024
+5
+10
+O0006
+BHYT501722840
+0980108869
+Nguyen Thi B
+Thanh Khe, Da Nang
+4/3/1994
+048205440800
+Male
+Khac
+Tat nguoi ben trai
+Cham soc da
+Khoa Khac
+56
+188
+23/4/2024
+10
+4
+O0007
+BHYT280382712
+0995992745
+Do Van A
+Thanh Khe, Da Nang
+21/1/1953
+048205862491
+Male
+Soi mat
+Buon non
+Xet nghiem
+Khoa Gan - Mat
+41
+169
+26/6/2024
+10
+10
+O0008
+BHYT349682308
+0910553926
+Hoang Van E
+Thanh Khe, Da Nang
+3/6/2001
+048205420427
+Female
+Chan thuong day chang
+Khat nuoc
+Phuc hoi chuc nang
+Khoa Xuong Khop
+80
+155
+21/6/2024
+2
+10
+O0009
+BHYT636699599
+0979481037
+Nguyen Van B
+Thanh Khe, Da Nang
+22/10/1989
+048205344857
+Female
+Mun trung ca
+Met moi
+Uong thuoc
+Khoa Da Lieu
+63
+179
+28/12/2024
+7
+5
+O0010
+BHYT906679602
+0929151923
+Pham Van A
+Thanh Khe, Da Nang
+18/12/1971
+048205181887
+Female
+Viem da co dia
+Dau nguc
+Cham soc da
+Khoa Da Lieu
+97
+156
+28/5/2024
+2
+2
+O0011
+BHYT633658543
+0937491919
+Ngo Thi D
+Thanh Khe, Da Nang
+26/3/2003
+048205791197
+Female
+Suy than
+Dau bung
+Cham soc da
+Khoa Than - Tiet Nieu
+99
+199
+27/12/2024
+9
+1
+O0012
+BHYT947173344
+0941515972
+Tran Thi D
+Thanh Khe, Da Nang
+14/3/1985
+048205838902
+Female
+Viem phe quan
+Buon non
+Uong thuoc
+Khoa Ho Hap
+49
+197
+8/10/2024
+1
+4
+O0013
+BHYT557358216
+0937574354
+Pham Van D
+Thanh Khe, Da Nang
+3/9/1976
+048205206534
+Female
+Ung thu
+Dau bung
+Xet nghiem
+Ngoai khoa
+66
+150
+21/12/2024
+1
+7
+O0014
+BHYT106552257
+0958643928
+Tran Van D
+Thanh Khe, Da Nang
+13/9/1958
+048205895977
+Female
+Loan nhip tim
+Buon non
+Phuc hoi chuc nang
+Khoa Tim Mach
+52
 170
-03/12/2024
+29/10/2024
+8
+3
+O0015
+BHYT464869295
+0943357412
+Do Van B
+Thanh Khe, Da Nang
+13/1/1982
+048205262110
+Male
+Di vat duong tho
+Chay mau
+Phuc hoi chuc nang
+Khoa Tai Mui Hong
+43
+169
+9/5/2024
+5
+7
+O0016
+BHYT588832507
+0993542027
+Nguyen Thi B
+Thanh Khe, Da Nang
+11/3/1981
+048205976984
+Female
+Viem phoi
+Dau khop
+Xet nghiem
+Khoa Ho Hap
+95
+165
+22/3/2024
+3
+6
+O0017
+BHYT306389244
+0991331501
+Le Thi D
+Thanh Khe, Da Nang
+24/4/1963
+048205523857
+Female
+Soi mat
+Dau lung
+Xet nghiem
+Ngoai khoa
+66
+155
+31/5/2024
+2
+7
+O0018
+BHYT156823775
+0987806248
+Nguyen Van D
+Thanh Khe, Da Nang
+12/10/1968
+048205703495
+Female
+Gan nhiem mo
+Dau khop
+Phuc hoi chuc nang
+Khoa Gan - Mat
+45
+158
+14/11/2024
+2
+4
+O0019
+BHYT182820155
+0948691794
+Nguyen Van C
+Thanh Khe, Da Nang
+7/6/1962
+048205988557
+Female
+Soi mat
+Dau khop
+Vat ly tri lieu
+Ngoai khoa
+77
+174
+7/2/2024
+4
+9
+O0020
+BHYT923853820
+0919541017
+Le Van C
+Thanh Khe, Da Nang
+24/1/1979
+048205274650
+Male
+Soi mat
+Dau khop
+Uong thuoc
+Khoa Gan - Mat
+65
+164
+10/2/2024
+1
+5
+O0021
+BHYT241474605
+0991647150
+Le Thi C
+Thanh Khe, Da Nang
+22/9/2002
+048205635874
+Female
+Viem phoi
+Dau khop
+Phau thuat
+Khoa Ho Hap
+64
+197
+9/8/2024
+6
+2
+O0022
+BHYT778222680
+0948385289
+Hoang Thi A
+Thanh Khe, Da Nang
+28/12/1962
+048205535468
+Female
+Ung thu gan
+Buon non
+Cham soc da
+Khoa Gan - Mat
+51
+153
+19/12/2024
+1
+7
+O0023
+BHYT114796870
+0951246270
+Ngo Van A
+Thanh Khe, Da Nang
+16/10/1954
+048205309669
+Female
+Gan nhiem mo
+Dau cot song
+Uong thuoc
+Khoa Gan - Mat
+53
+166
+31/6/2024
+4
+6
+O0024
+BHYT939165792
+0925346846
+Le Thi A
+Thanh Khe, Da Nang
+4/3/2004
+048205594619
+Male
+Ung thu gan
+Dau bung
+Tiem chung
+Khoa Gan - Mat
+77
+170
+3/2/2024
+7
+8
+O0025
+BHYT961980639
+0968552432
+Tran Thi A
+Thanh Khe, Da Nang
+11/2/1988
+048205972325
+Male
+Di vat duong tho
+Dau khop
+Chup X-quang
+Khoa Tai Mui Hong
+50
+183
+16/2/2024
+3
+1
+O0026
+BHYT974432885
+0927502122
+Pham Thi B
+Thanh Khe, Da Nang
+27/8/1966
+048205923083
+Male
+Suy tim
+Dau khop
+Xet nghiem
+Khoa Tim Mach
+53
+177
+8/1/2024
+4
+1
+O0027
+BHYT660240345
+0981694533
+Bui Van D
+Thanh Khe, Da Nang
+25/3/2004
+048205678961
+Female
+Duc thuy tinh the
+Met moi
+Phuc hoi chuc nang
+Khoa Mat
+52
+181
+1/11/2024
+4
+5
+O0028
+BHYT725248359
+0934607366
+Vu Van D
+Thanh Khe, Da Nang
+7/5/1990
+048205311389
+Female
+Viem ket mac
+Buon non
+Cham soc da
+Khoa Mat
+55
+175
+12/8/2024
+7
+8
+O0029
+BHYT617717211
+0999662332
+Tran Van B
+Thanh Khe, Da Nang
+10/4/1997
+048205217170
+Female
+Dau dau
+Dau bung
+Xet nghiem
+Khoa Than Kinh
+83
+173
+21/10/2024
+8
+7
+O0030
+BHYT200415673
+0997445614
+Tran Van D
+Thanh Khe, Da Nang
+14/9/1995
+048205499263
+Male
+Duc thuy tinh the
+Chay mau
+Phau thuat
+Khoa Mat
+72
+191
+18/3/2024
+5
+4
+O0031
+BHYT232275594
+0950931249
+Vu Thi C
+Thanh Khe, Da Nang
+22/2/2008
+048205532667
+Female
+Dot quy nao
+Tat nguoi ben trai
+Phau thuat
+Khoa Than Kinh
+66
+155
+4/2/2024
+3
+3
+O0032
+BHYT296273229
+0992830930
+Nguyen Van A
+Thanh Khe, Da Nang
+15/3/1980
+048205563074
+Female
+Viem gan B
+Dau khop
+Phuc hoi chuc nang
+Khoa Gan - Mat
+87
+171
+8/12/2024
+1
+3
+O0033
+BHYT903103069
+0975927330
+Ngo Van D
+Thanh Khe, Da Nang
+6/2/1972
+048205484201
+Female
+Dau dau
+Khat nuoc
+Vat ly tri lieu
+Khoa Than Kinh
+97
+151
+18/7/2024
+9
+7
+O0034
+BHYT973038231
+0994237497
+Pham Van E
+Thanh Khe, Da Nang
+14/8/2005
+048205137359
+Male
+Lao phoi
+Dau dau
+Vat ly tri lieu
+Khoa Ho Hap
+97
+152
+13/9/2024
+2
+6
+O0035
+BHYT284451385
+0997674029
+Bui Thi D
+Thanh Khe, Da Nang
+17/6/1972
+048205837399
+Female
+Khac
+Buon non
+Vat ly tri lieu
+Khoa Khac
+88
+164
+13/4/2024
+6
+6
+O0036
+BHYT986902445
+0968452197
+Bui Van A
+Thanh Khe, Da Nang
+1/11/1977
+048205484883
+Female
+Nam da
+Buon non
+Xet nghiem
+Khoa Da Lieu
+86
+160
+19/1/2024
+10
+4
+O0037
+BHYT431002695
+0999440309
+Tran Thi E
+Thanh Khe, Da Nang
+17/3/1967
+048205584515
+Female
+Viem tai giua
+Tat nguoi ben trai
+Phau thuat
+Khoa Tai Mui Hong
+69
+152
+2/2/2024
+2
+5
+O0038
+BHYT938456757
+0999058198
+Bui Thi E
+Thanh Khe, Da Nang
+20/4/1974
+048205379508
+Male
+Dau nua dau
+Tat nguoi ben trai
+Uong thuoc
+Khoa Than Kinh
+60
+150
+17/5/2024
+1
+10
+O0039
+BHYT143271689
+0961127822
+Do Thi E
+Thanh Khe, Da Nang
+6/12/2005
+048205244675
+Male
+Ung thu gan
+Tat nguoi ben trai
+Uong thuoc
+Khoa Gan - Mat
+64
+189
+9/6/2024
+8
+10
+O0040
+BHYT471916794
+0983190711
+Bui Van D
+Thanh Khe, Da Nang
+15/5/1958
+048205207432
+Male
+Di vat duong tho
+Buon non
+Phuc hoi chuc nang
+Khoa Tai Mui Hong
+46
+156
+26/2/2024
+6
+7
+O0041
+BHYT978697801
+0992358067
+Dang Van D
+Thanh Khe, Da Nang
+10/8/1975
+048205438995
+Male
+Dot quy nao
+Chay mau
+Phuc hoi chuc nang
+Khoa Than Kinh
+100
+153
+26/9/2024
+1
+8
+O0042
+BHYT534914476
+0943785847
+Nguyen Van A
+Thanh Khe, Da Nang
+9/5/1990
+048205741672
+Female
+Loan nhip tim
+Tat nguoi ben trai
+Xet nghiem
+Khoa Tim Mach
+94
+162
+31/8/2024
+8
+6
+O0043
+BHYT637436224
+0959242889
+Bui Van B
+Thanh Khe, Da Nang
+5/12/1959
+048205892909
+Female
+Chan thuong day chang
+Tat nguoi ben trai
+Chup X-quang
+Khoa Xuong Khop
+93
+159
+24/4/2024
+10
+7
+O0044
+BHYT687134629
+0927423713
+Le Van C
+Thanh Khe, Da Nang
+2/7/1961
+048205581999
+Male
+Soi than
+Khat nuoc
+Cham soc da
+Khoa Than - Tiet Nieu
+94
+176
+12/2/2024
+5
+4
+O0045
+BHYT583282210
+0956763857
+Dang Thi C
+Thanh Khe, Da Nang
+10/7/1983
+048205701092
+Male
+Can thi
+Dau nguc
+Chup X-quang
+Khoa Mat
+69
+167
+7/5/2024
+7
+1
+O0046
+BHYT858678799
+0956111804
+Ngo Van E
+Thanh Khe, Da Nang
+21/7/2006
+048205651013
+Male
+Duc thuy tinh the
+Dau lung
+Phau thuat
+Khoa Mat
+91
+164
+10/4/2024
+3
+10
+O0047
+BHYT614598120
+0973030985
+Do Van C
+Thanh Khe, Da Nang
+9/5/2007
+048205848991
+Female
+Viem phe quan
+Khat nuoc
+Cham soc da
+Khoa Ho Hap
+61
+195
+24/1/2024
+4
+5
+O0048
+BHYT567662579
+0935729491
+Hoang Thi A
+Thanh Khe, Da Nang
+17/7/1971
+048205144827
+Male
+Tieu duong
+Tat nguoi ben trai
+Phau thuat
+Noi khoa
+65
+195
+23/8/2024
 4
 4
+O0049
+BHYT473762895
+0943309239
+Le Thi C
+Thanh Khe, Da Nang
+5/12/2002
+048205135382
+Female
+Khac
+Tat nguoi ben trai
+Tiem chung
+Khoa Khac
+72
+174
+27/5/2024
+10
+3
+O0050
+BHYT759292396
+0946277675
+Le Thi D
+Thanh Khe, Da Nang
+11/12/1962
+048205574619
+Male
+Thai hoa than kinh
+Dau lung
+Chup X-quang
+Khoa Than Kinh
+76
+158
+21/2/2024
+7
+2
+O0051
+BHYT573375342
+0948885863
+Hoang Van D
+Thanh Khe, Da Nang
+21/8/1988
+048205693704
+Female
+Viem gan C
+Buon non
+Phau thuat
+Khoa Gan - Mat
+89
+184
+30/12/2024
+5
+3
+O0052
+BHYT217961096
+0987622385
+Ngo Van A
+Thanh Khe, Da Nang
+12/1/1998
+048205778079
+Female
+Viem amidan
+Dau dau
+Vat ly tri lieu
+Khoa Tai Mui Hong
+78
+155
+6/11/2024
+10
+10
+O0053
+BHYT680546993
+0965457987
+Do Van E
+Thanh Khe, Da Nang
+22/5/1975
+048205595612
+Male
+Loang xuong
+Dau khop
+Uong thuoc
+Khoa Xuong Khop
+73
+183
+27/3/2024
+8
+7
+O0054
+BHYT750421069
+0995888475
+Tran Van B
+Thanh Khe, Da Nang
+12/6/2001
+048205364177
+Male
+Benh Parkinson
+Met moi
+Cham soc da
+Khoa Than Kinh
+67
+163
+3/8/2024
+7
+2
+O0055
+BHYT986695993
+0974500411
+Vu Van D
+Thanh Khe, Da Nang
+20/12/1992
+048205301861
+Female
+Cao huyet ap
+Tat nguoi ben trai
+Chup X-quang
+Noi khoa
+75
+180
+14/2/2024
+9
+6
+O0056
+BHYT882766794
+0960723537
+Ngo Thi E
+Thanh Khe, Da Nang
+22/12/1965
+048205422812
+Female
+Gan nhiem mo
+Met moi
+Xet nghiem
+Khoa Gan - Mat
+46
+181
+28/5/2024
+9
+5
+O0057
+BHYT681200367
+0964706189
+Hoang Thi B
+Thanh Khe, Da Nang
+3/8/1950
+048205950298
+Female
+Ung thu gan
+Tat nguoi ben trai
+Chup X-quang
+Khoa Gan - Mat
+58
+184
+15/9/2024
+5
+2

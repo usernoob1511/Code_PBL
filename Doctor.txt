@@ -1,5 +1,5 @@
 D0001
-Khoa Than - Tiet nieu
+Noi khoa
 19
 0369075402
 Nguyen Song Hao
@@ -14,7 +14,7 @@ Thursday
 08:00
 16:00
 D0027
-Khoa ho hap
+Ngoai khoa
 19
 0332543542
 Bui Thuy Tram
@@ -32,10 +32,10 @@ Sunday
 18:00
 23:00
 D0016
-Khoa Than - Tiet nieu
+Khoa Tai-Mui-Hong
 48
 0385321345
-DoctorStrange
+Nguyen Van Loi
 hoachau
 songhaodeptrai@gmail
 19/07/1976
@@ -48,7 +48,7 @@ Wednesday
 07:00
 12:00
 D0015
-Khoa khac
+Khoa Mat
 19
 0795513578
 Doan Ngoc Minh
@@ -65,7 +65,7 @@ Friday
 07:00
 23:00
 D5906
-Khoa Khac
+Khoa Da Lieu
 18
 0905795132
 Nguyen Phan Khanh Quynh
@@ -81,7 +81,7 @@ Saturday
 12:00
 21:00
 D3805
-Khoa Xuong Khop
+Khoa Tim Mach
 19
 0795513578
 Nguyen Dang Nam
@@ -98,7 +98,7 @@ Friday
 08:00
 22:00
 D0056
-Khoa Xuong Khop
+Khoa Than - Tiet Nieu
 19
 0364178612
 Do Quoc Chung
@@ -114,7 +114,7 @@ Saturday
 12:00
 19:00
 D0059
-Khoa ho hap
+Khoa Gan-Mat
 79
 0123456789
 Le Tan Sinh
@@ -132,23 +132,71 @@ Friday
 Saturday
 07:00
 23:00
-D1112
-Khoa Ho Hap
-34
-0123456789
-Hao Dep Trai
-Bach khoa university
-haodeptrai1233@gmail.com
-01/01/1990
-048205123456
+D0045
+Khoa Than Kinh
+19
+0341257899
+Do Quoc Kien
+Cam Le, Da Nang
+dqkien123@gmail.com
+09/11/2005
+023205124558
 Male
-7
+6
 Monday
 Tuesday
 Wednesday
 Thursday
 Friday
 Saturday
-Sunday
 07:00
-22:00
+17:00
+D0039
+Khoa Ho Hap
+19
+0905112369
+Tran Canh Quy Trong
+Dien Nam Trung, Quang Nam
+quytrong123@gmail.com
+05/01/2005
+012203114559
+Male
+4
+Tuesday
+Wednesday
+Thursday
+Friday
+14:00
+23:00
+D0012
+Khoa Xuong Khop
+19
+0123852147
+Nguyen Van Nhat Phi
+Phong Dien, Hue
+phinguyen3456@gmail.com
+30/11/2005
+012209117825
+Male
+3
+Wednesday
+Thursday
+Saturday
+09:00
+20:00
+D0023
+Khoa Khac
+19
+0905412789
+Nguyen Cong Duc
+Ha Dong, Quang Nam
+nguyencongduc@gmail.com
+20/10/2005
+048205112456
+Male
+3
+Wednesday
+Thursday
+Friday
+07:00
+20:00
